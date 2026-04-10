@@ -124,9 +124,6 @@ Finally, when platforms can make initial-stage marketing investments that shift 
     <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4764605" target="_blank" rel="noopener noreferrer" class="paper-title">
       How Network Effects Shape Firm Entry Strategies
     </a>
-    <span class="paper-coauthors">
-      with Lisa De Simone (UT Austin), Daniel Rabetti (NUS)
-    </span>
   </div>
 
   <details class="paper-details">
