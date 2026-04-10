@@ -10,7 +10,7 @@
 main:
   - title: "Home"
     url: /
-  - title: "Working Papers"
-    url: /publications/
+  - title: "CV"
+    url: /files/
   - title: "Others"
     url: /cv/
