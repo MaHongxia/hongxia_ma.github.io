@@ -94,7 +94,9 @@ redirect_from:
 I am a PhD candidate in the Department of Economics at the National University of Singapore, with an expected graduation date of 2026. Prior to that, I received a Bachelor’s degree in Statistics with first-class honours from the National University of Singapore in 2020.
 </p>
 
-Here is my cv.
+<p>I'm looking for research-related positions in applied microeconomic theory in Singapore. </p>
+
+</p>Here is my cv.</p>
 
 
 
