@@ -98,12 +98,6 @@ Here is my cv.
 
 
 
-    </div>
-  </details>
-</div>
-
-
-
 
 
 
