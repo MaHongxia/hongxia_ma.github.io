@@ -1,56 +1,189 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Ma Hongxia"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+<style>
+  .page {
+    max-width: 100% !important;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+  .mt-16 { margin-top: 16px; }
+  .mb-24 { margin-bottom: 24px; }
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+ .paper-title {
+    font-weight: 600;
+  }
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+  .paper-coauthors {
+    font-size: 0.95em;
+  }
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+  .paper-item {
+    margin-top: 28px;
+    margin-bottom: 28px;
+  }
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+  .paper-details {
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0;
+    overflow: hidden;
+    background: #fafafa;
+  }
+ .paper-details summary {
+    cursor: pointer;
+    padding: 10px 14px;
+    font-weight: 600;
+    list-style: revert;
+    background: #f3f3f3;
+  }
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+  .paper-details summary:hover {
+    background: #ececec;
+  }
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+  .paper-details-content {
+    padding: 14px;
+    background: #fff;
+  }
 
-**Markdown generator**
+  .paper-details-content p {
+    margin-top: 0;
+    margin-bottom: 12px;
+  }
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+  .conference-info {
+    font-style: italic;
+    margin-bottom: 0;
+  }
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+  .img-center {
+    margin-top: 20px;
+    text-align: center;
+  }
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+  .img-center img {
+    max-width: 450px;
+    height: auto;
+  }
+</style>
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+<div class="mt-16"></div>
+
+<p>Welcome to my website!</p>
+
+<p>My research focuses on decentralized market design and other technology-related topics in financial markets. I will be joining DeCenter at Princeton University as a postdoctoral research fellow.
+</p>
+
+<p>
+I received my PhD in Economics from the National University of Singapore (NUS) in 2026. Prior to that, I obtained my Bachelor's degree in Financial Engineering from the Southwestern University of Finance and Economics in 2020.
+</p>
+
+<h2 style="margin-top:40px;">Working Papers</h2>
+
+<div class="paper-item">
+  <div class="row">
+    <a href="#" class="paper-title">Crypto Capture of Foreign Aid</a>
+    <span class="paper-coauthors">with Sumit Agarwal (NUS), Eswar Prasad (Cornell), Daniel Rabetti (NUS) <em>draft available upon request</em></span>
+  </div>
+  <details class="paper-details">
+    <summary>Abstract and conferences</summary>
+    <div class="paper-details-content">
+      <p><strong>Abstract:</strong><br>
+      This paper investigates whether cryptocurrencies have become a new conduit for laundering diverted foreign aid. Using World Bank aid disbursement data from 2018 to 2024, linked with forensically tagged on-chain Bitcoin transactions and off-chain exchange activity, we document systematic surges in crypto transactions for anonymous wallets after disbursements, especially on exchanges located in tax-haven jurisdictions. A one-standard-deviation increase in lagged aid is associated with a 0.51 log-point rise in anonymous transactions on tax-haven exchanges—approximately a 66% increase—concentrated in newly created wallets and fading within two quarters. Network analysis reveals a real-time laundering pattern: funds flow through regulated platforms, then through mixers and tax-haven exchanges, mirroring the classic placement, layering, and integration stages. Off-chain data confirm spikes in transactions on suspect, lightly regulated platforms. To address endogeneity in aid allocation, we use an IV strategy based on historical aid shares interacted with governance quality. Overall, our findings suggest that cryptocurrencies are increasingly used for offshore banking in concealing aid diversion. Our study shows how blockchain forensics can trace hidden financial flows and offers new tools for anti-corruption and crypto regulation.
+      </p>
+     <p class="conference-info">
+      Conferences and talks: ABFER (scheduled, 2026), MFA (2026), 38th Australasian Finance and Banking Conference (2025)
+      </p>
+    </div>
+  </details>
+</div>
+
+<div class="paper-item">
+  <div class="row">
+    <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4764605" target="_blank" rel="noopener noreferrer" class="paper-title">
+      Tax-Motivated Borrowing and Default Risk in Decentralized Lending
+    </a>
+    <span class="paper-coauthors">
+      with Lisa De Simone (UT Austin), Daniel Rabetti (NUS)
+    </span>
+  </div>
+
+   <details class="paper-details">
+    <summary>Abstract and conferences</summary>
+    <div class="paper-details-content">
+      <p><strong>Abstract:</strong><br>
+      Exploiting an exogenous tax reporting shock imposed on cryptocurrency gains and millions of DeFi transactions, we identify a borrow up, trade down strategy whereby U.S. traders reduce taxable trading and increase borrowing of the same tokens to monetize their needs and defer tax payment. This substitution effect is particularly pronounced among borrowers with higher loan-to-value ratios and higher returns. We show that when adopted at scale, tax considerations reduce trading activity and market depth, generating what we term tax-planning-induced illiquidity. We establish a causal link between this illiquidity and heightened credit risk. A one-standard-deviation increase in tax-induced illiquidity more than doubles the value of defaulted loans, with broader implications for financial stability in decentralized lending markets. Results are robust to multiple checks, including highly tax-sensitive borrowers, validation against tax-awareness periods, and alternative proxies for U.S. traders.
+      </p>
+
+      <p class="conference-info">
+      Conferences and talks: AFA PhD Session (2026); ABR-Fudan Conference (2025); IMF Workshop in Digital Money and Taxation (2025)*; Hawai’i Accounting Research Conference (2025)*; Tokenomics Conference (2024)*; Waseda University Workshop on the Economics of Technology and Decentralization*; NUS; Cornell–Tsinghua Summer Finance Institute*; IESE Barcelona Tax Conference*; IC3 Blockchain Camp at Cornell Tech*; Finance and Accounting Annual Research Symposium*; Research Symposium on Finance and Economics*; Bank of Finland; European Systemic Risk Board*; Swiss National Bank Conference on Cryptoassets and Financial Innovation*; Euroasia Conference*; Hong Kong University Summer Conference*; Bank of Japan*; FeAT International Conference on AI*; Tsinghua University (SEM and PBC, 2024); Singapore FinTech Festival*; 14th FMCG Conference*; AI Global Finance Research Conference (Ho Chi Minh City, 2023).
+      </p>
+    </div>
+  </details>
+</div>
+
+<div class="paper-item">
+  <div class="row">
+    <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6435099" target="_blank" rel="noopener noreferrer" class="paper-title">
+      When Privacy Protects but Excludes: The Costs and Benefits of Privacy Regulation in Credit Markets
+    </a>
+    <span class="paper-coauthors">
+      with Sumit Agarwal (NUS), Pulak Ghosh (IIM Bangalore), Shohini Kundu (UCLA), Nishant Vats (WashU), Xinbo Wang (NUS), Yingze Xu (WashU)
+    </span>
+  </div>
+  <details class="paper-details">
+    <summary>Abstract and conferences</summary>
+    <div class="paper-details-content">
+      <p><strong>Abstract:</strong><br>
+      This paper studies the consequences of privacy regulation by exploiting Google’s 2019 restriction on CDR access for a major Indian FinTech lender. We show that this intervention reflects a key policy trade-off in digital credit markets: strengthened privacy protections raise loan applications, consistent with higher demand, yet simultaneously induce tighter screening, reflecting an overall contraction in credit supply. This credit contraction disproportionately excludes economically and socially marginalized applicants. Linking to economy-wide credit bureau records, we quantify the "FinTech ladder effect" whereby initial digital credit access serves as a gateway to broader formal credit. Privacy-induced rejection reduces the probability of obtaining any formal credit by 13.7 percentage points even four years later. Using a structural model, we decompose the welfare effects of privacy regulation and show that the regulation generates a 0.53% increase in consumer surplus and reduces lender profits by 15%.
+      </p>
+
+      <p class="conference-info">
+      Conferences and talks: MFA (2026)
+      </p>
+    </div>
+  </details>
+</div>
+<div class="paper-item">
+  <div class="row">
+    <a href="#" class="paper-title">Digital Salience and Consumption Elasticity: Evidence from a Real-Time Feedback Intervention</a>
+    <span class="paper-coauthors"><em>draft available upon request</em></span>
+  </div>
+
+  <details class="paper-details">
+    <summary>Abstract and conferences</summary>
+    <div class="paper-details-content">
+      <p><strong>Abstract:</strong><br>
+      This paper studies how digital technologies alter household responsiveness to income shocks by increasing the salience of consumption. I evaluate a government-led intervention in Singapore that provides real-time energy usage feedback through a mobile app. Using proprietary banking transaction data and a staggered rollout design, I find that treated households reduce utility payments by approximately $21 per month. This reduction is not driven by price changes or liquidity constraints but by increased cognitive attention to consumption. The intervention also produces behavioral spillovers: households reduce spending on paper goods, carbon-intensive foods, and taxi rides. Untreated residents living near treated areas exhibit similar changes, suggesting that salience effects diffuse spatially. These findings challenge the Permanent Income Hypothesis by showing that visibility increases short-run consumption elasticity. The results have implications for monetary and fiscal policy design. Digital salience can raise marginal propensities to consume, especially among liquidity-constrained households, and may strengthen policy transmission in heterogeneous-agent macroeconomic models.
+      </p>
+      
+        <p class="conference-info">
+      Conferences and talks: AEA PhD Session (2026), 38th Australasian Finance and Banking Conference (2025)
+      </p>
+    </div>
+  </details>
+</div>
+
+
+
+
+
+
+
+
