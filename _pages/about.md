@@ -87,25 +87,25 @@ redirect_from:
 
 <p>Welcome to my website!</p>
 
-<p>My research focuses on decentralized market design and other technology-related topics in financial markets. I will be joining DeCenter at Princeton University as a postdoctoral research fellow.
+<p>My research focuses on platform economics, industrial organization, and applied microeconomic theory in general. 
 </p>
 
 <p>
-I received my PhD in Economics from the National University of Singapore (NUS) in 2026. Prior to that, I obtained my Bachelor's degree in Financial Engineering from the Southwestern University of Finance and Economics in 2020.
+I am a PhD candidate from the Department of Economics, National University of Singapore. Prior to that, I obtained my Bachelor's degree in Statistics from NUS in 2020.
 </p>
 
 <h2 style="margin-top:40px;">Working Papers</h2>
 
 <div class="paper-item">
   <div class="row">
-    <a href="#" class="paper-title">Crypto Capture of Foreign Aid</a>
-    <span class="paper-coauthors">with Sumit Agarwal (NUS), Eswar Prasad (Cornell), Daniel Rabetti (NUS) <em>draft available upon request</em></span>
+    <a href="#" class="paper-title">xxxx</a>
+    <span class="paper-coauthors"> <em>draft available upon request</em></span>
   </div>
   <details class="paper-details">
     <summary>Abstract and conferences</summary>
     <div class="paper-details-content">
       <p><strong>Abstract:</strong><br>
-      This paper investigates whether cryptocurrencies have become a new conduit for laundering diverted foreign aid. Using World Bank aid disbursement data from 2018 to 2024, linked with forensically tagged on-chain Bitcoin transactions and off-chain exchange activity, we document systematic surges in crypto transactions for anonymous wallets after disbursements, especially on exchanges located in tax-haven jurisdictions. A one-standard-deviation increase in lagged aid is associated with a 0.51 log-point rise in anonymous transactions on tax-haven exchanges—approximately a 66% increase—concentrated in newly created wallets and fading within two quarters. Network analysis reveals a real-time laundering pattern: funds flow through regulated platforms, then through mixers and tax-haven exchanges, mirroring the classic placement, layering, and integration stages. Off-chain data confirm spikes in transactions on suspect, lightly regulated platforms. To address endogeneity in aid allocation, we use an IV strategy based on historical aid shares interacted with governance quality. Overall, our findings suggest that cryptocurrencies are increasingly used for offshore banking in concealing aid diversion. Our study shows how blockchain forensics can trace hidden financial flows and offers new tools for anti-corruption and crypto regulation.
+      This paper 
       </p>
      <p class="conference-info">
       Conferences and talks: ABFER (scheduled, 2026), MFA (2026), 38th Australasian Finance and Banking Conference (2025)
@@ -128,7 +128,7 @@ I received my PhD in Economics from the National University of Singapore (NUS) i
     <summary>Abstract and conferences</summary>
     <div class="paper-details-content">
       <p><strong>Abstract:</strong><br>
-      Exploiting an exogenous tax reporting shock imposed on cryptocurrency gains and millions of DeFi transactions, we identify a borrow up, trade down strategy whereby U.S. traders reduce taxable trading and increase borrowing of the same tokens to monetize their needs and defer tax payment. This substitution effect is particularly pronounced among borrowers with higher loan-to-value ratios and higher returns. We show that when adopted at scale, tax considerations reduce trading activity and market depth, generating what we term tax-planning-induced illiquidity. We establish a causal link between this illiquidity and heightened credit risk. A one-standard-deviation increase in tax-induced illiquidity more than doubles the value of defaulted loans, with broader implications for financial stability in decentralized lending markets. Results are robust to multiple checks, including highly tax-sensitive borrowers, validation against tax-awareness periods, and alternative proxies for U.S. traders.
+      Exploiting 
       </p>
 
       <p class="conference-info">
