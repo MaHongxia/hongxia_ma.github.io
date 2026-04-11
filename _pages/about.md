@@ -132,7 +132,7 @@ When focality is locked in to the first entrant, network effects indeed exacerba
       </p>
       
       <p class="conference-info">
-      Conferences and talks: APIOC(2024), NUS Theory Reading Group, NTU Brownbag
+      Conferences and talks: Asia-Pacific Industrial Organization Conference (APIOC) 2024, NUS Microeconomic Theory Reading Group,  NTU Brownbag Seminar
       </p>
     </div>
   </details>
