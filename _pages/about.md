@@ -87,6 +87,8 @@ redirect_from:
 
 <p>Welcome to my website!</p>
 
+<p>I am seeking research opportunities in Singapore at all levels. </p>
+
 <p>My research focuses on platform economics, industrial organization, and applied microeconomic theory in general. 
 </p>
 
@@ -94,7 +96,6 @@ redirect_from:
 I am a PhD candidate in the Department of Economics at the National University of Singapore, with an expected graduation date of 2026. Prior to that, I received a Bachelor’s degree in Statistics with first-class honours from the National University of Singapore in 2020.
 </p>
 
-<p>I'm looking for research-related positions in applied microeconomic theory in Singapore. </p>
 
 <h2 style="margin-top:40px;">Working Papers</h2>
 
