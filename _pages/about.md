@@ -106,7 +106,7 @@ I am a PhD candidate in the Department of Economics at the National University o
   </div>
 
   <details class="paper-details">
-    <summary>Abstract and conferences</summary>
+    <summary>Abstract</summary>
     <div class="paper-details-content">
       <p><strong>Abstract:</strong><br>
       We study how the evolution of consumer beliefs over time shapes dynamic competition between two vertically differentiated platforms in the presence of network effects, using the notion of partial focality. We develop a tractable model of focality updating based on past market outcomes, with exponential weighting governed by a persistence parameter. We capture asymmetries in platforms’ focality through both the initial focality level and the persistence of the focality. We show how focality dynamics affect market efficiency, consumer surplus, and comparative statics with respect to platforms’ discount factors. Finally, when platforms can make initial-stage marketing investments that shift either the initial focality level or the persistence of focality, we show that the high-quality platform always has a stronger incentive to invest than the low-quality platform.
@@ -122,7 +122,7 @@ I am a PhD candidate in the Department of Economics at the National University o
   </div>
 
   <details class="paper-details">
-    <summary>Abstract and conferences</summary>
+    <summary>Abstract</summary>
     <div class="paper-details-content">
       <p><strong>Abstract:</strong><br>
       There is a common presumption that network effects intensify firms' race to enter first in order to capture an incumbency advantage. We study this idea in an infinite-horizon model in which two vertically differentiated firms choose whether and when to enter a growing market. Incumbency advantage arises endogenously from consumer beliefs in the post-entry pricing subgame: whenever multiple equilibria exist, consumers coordinate on a focal firm. We compare alternative specifications of focality dynamics. When focality is locked in to favor the first entrant, network effects indeed amplify inefficiently early entry. By contrast, when focality adapts quickly to recent outcomes, network effects can mitigate premature entry for sufficiently patient firms by weakening the low-quality firm's preemption incentive relative to that of the high-quality firm. Surprisingly, this effect can tilt the entry race toward the high-quality firm even more strongly than a focality structure that always favors it, provided that market growth is sufficiently rapid and firms are sufficiently patient.
