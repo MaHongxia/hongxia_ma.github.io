@@ -95,7 +95,27 @@ redirect_from:
 <p>
 I am a PhD candidate in the Department of Economics at the National University of Singapore, with an expected graduation date of 2026. Prior to that, I received a Bachelor’s degree in Statistics with first-class honours from the National University of Singapore in 2020.
 </p>
+<style>
+.paper-details summary {
+  background: #f0f0f0;
+  color: #222 !important;
+  padding: 0.75rem 1rem;
+  font-weight: 600;
+}
 
+.paper-details-content {
+  background: #ffffff !important;
+  color: #222 !important;
+  padding: 1rem;
+}
+
+.paper-details-content p,
+.paper-details-content strong,
+.paper-details-content li,
+.paper-details-content div {
+  color: #222 !important;
+}
+</style>
 
 <h2 style="margin-top:40px;">Working Papers</h2>
 
