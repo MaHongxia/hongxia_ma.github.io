@@ -21,7 +21,7 @@ redirect_from:
 - **NUS Research Scholarship**
 - **Dean’s List from Department of Statistics (NUS) for Undergraduates**
 - **NUS Science & Technology Undergraduate Scholarship**
-- **SM2 Scholarship**
+- **SM2 Scholarship from Singapore’s Ministry of Education (MOE)**
 
 ## Skills
 - R, Python, MATLAB
